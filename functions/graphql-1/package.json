@@ -1,8 +1,8 @@
 {
-  "name": "fauna-crud",
+  "name": "apollo-graphql",
   "version": "1.0.0",
-  "description": "netlify functions:create - CRUD functionality with Fauna DB",
-  "main": "fauna-crud.js",
+  "description": "netlify functions:create - set up for apollo graphql",
+  "main": "apollo-graphql.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,11 +10,12 @@
     "netlify",
     "serverless",
     "js",
-    "faunadb"
+    "apollo"
   ],
   "author": "Netlify",
   "license": "MIT",
   "dependencies": {
-    "faunadb": "^2.6.1"
+    "apollo-server-lambda": "^2.4.8",
+    "graphql": "^14.1.1"
   }
 }
